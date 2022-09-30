@@ -20,24 +20,21 @@ Typically, a potentiometer (variable resistor) measures the position of the outp
 Servo motors are used for angular positioning, such as in radio control airplanes.  They typically have a movement range of 180 deg but can go up to 210 deg.The output shaft of a servo does not rotate freely, but rather is made to seek a particular angular position under electronic control. 
 
 ![image](https://user-images.githubusercontent.com/36288975/163544439-1f477927-fcd4-42f0-9ce4-c863fdbf1210.png)
-
-## Figure-01 SERVO MOTOR SPLIT VIEW 
+### Figure-01 SERVO MOTOR SPLIT VIEW 
 
 Control an external controller (such as the Arduino) tells the servo where to go with a signal know as pulse proportional modulation (PPM) or pulse code modulation (which is often confused with pulse width modulation, PWM). PWM uses 1 to 2ms out of a 20ms time period to encode its information.
  
 ![image](https://user-images.githubusercontent.com/36288975/163544482-3027136f-7135-4f3d-a23f-8dc2fe04194d.png)
-
-## Figure-02 SERVO MOTOR PINS
+### Figure-02 SERVO MOTOR PINS
 
 ![image](https://user-images.githubusercontent.com/36288975/163544513-ca497421-e6ba-4f91-871f-5cfba77f22a8.png)
+### Figure-03 SERVO MOTOR OVERVIEW 
 
-## Figure-03 SERVO MOTOR OVERVIEW 
 
 # CIRCUIT DIAGRAM:
 
 ![image](https://user-images.githubusercontent.com/36288975/163544618-6eb8a7b5-7f1a-428a-8d9f-fd899b145efb.png)
-
-## FIGURE 04 CIRCUIT DIAGRAM:
+### FIGURE 04 CIRCUIT DIAGRAM:
 
 # PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
@@ -90,7 +87,9 @@ void loop()
 
 # OUTPUT:
 ![output](op1.png)
+
 ![output](op3.png)
+
 ![output](op2.png)
 
 # RESULT: 
